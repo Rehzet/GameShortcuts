@@ -24,7 +24,7 @@ def searchExeIcon(launcher, gameid):
             return winreg.QueryValueEx(key, "DisplayIcon")[0]
 
         except FileNotFoundError: # There are steam apps installed like "Steamworks Common Redistributables"
-                                  # that have steamid but cannot be found in the registry because are not games.
+                                  # that have steamid but cannot be found in the registry because they aren't games.
             return "error"
 
 # Create shortcuts for every game.

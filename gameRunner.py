@@ -15,7 +15,7 @@ def runGame(gameData):
 
 def usage():
     print("""
-        Usage: gameruner --launcher [steam|epic|origin|ubisoft|rockstar|battlenet] --gameid [gameid] --arguments [arguments]
+        Usage: gamerunner --launcher [steam|epic|origin|ubisoft|rockstar|battlenet] --gameid [gameid] --arguments [arguments]
 
         --launcher and --gameid are mandatory.
 
@@ -23,7 +23,7 @@ def usage():
 
         -l, --launcher\t launcher we are using to open the game. 
         \t\t This is the list of the available launchers: steam, epic, origin, ubisoft, rockstar.
-        -g, --gameid\t gameid that identifies the game in its launcher.
+        -g, --gameid\t gameid that identifies the game in its own launcher.
         -a, --arguments\t specify arguments for the game exe if are needed.
         -h, --help\t show this help and exit.
     """)

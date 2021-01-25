@@ -1,2 +1,5 @@
 # Ignore extensions 
 *.exe
+
+# Ignore folders
+__pycache__
